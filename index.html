@@ -258,11 +258,35 @@ pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "Extérieur - Entrée 2",
                     "sceneId": "scene10"
+                },
+				{
+                    "pitch": -13,
+                    "yaw": 90,
+                    "type": "scene",
+                    "text": "Jardin",
+                    "sceneId": "scene11"
                 }
             ]
         },
 		"scene10": {
             "title": "Extérieur - Entrée 2",
+            "hfov": 110,
+            "pitch": 0,
+            "yaw": -0.28,
+            "type": "equirectangular",
+            "panorama": "images/IMG_20230626_144130_00_067_PureShot.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -12,
+                    "yaw": 2.5,
+                    "type": "scene",
+                    "text": "Pallier",
+                    "sceneId": "scene9"
+                }
+            ]
+        },
+		"scene11": {
+            "title": "Jardin",
             "hfov": 110,
             "pitch": 0,
             "yaw": -0.28,
